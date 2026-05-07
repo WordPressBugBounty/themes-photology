@@ -1,0 +1,23 @@
+/*
+Theme Name: Photology
+Description: Photology is a simple, responsive, and elegant theme template for WordPress fullsite editing and fully compatible with Gutenverse plugin. Photology's templates is built for people that love Photography, record images and tell stories using their images, or having a business as Photographer and want to build your Portfolio website. The templates includes both core version and Gutenverse plugin version, also has core and Gutenverse block patterns ready so you can start mix and match your template parts as you desire. The templates is built ready so you don't need to build it from scratch. We want to make your experience using WordPress fullsite editor more convenient.
+Author: Jegstudio
+Author URI: https://gutenverse.com
+Theme URI: https://gutenverse.com/themes/photology/
+Version: 1.2.1
+Stable tag: 1.2.1
+Requires at least: 6.2
+Tested up to: 6.6
+Requires PHP: 7.4.21
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: photology
+Tags: one-column,block-patterns,block-styles,custom-colors,custom-logo,custom-menu,editor-style,featured-images,full-site-editing,translation-ready
+*/
+
+:root{
+    --wp--preset--color--photology-primary: var(--wp--preset--color--theme-0);--wp--preset--color--theme-0: var(--wp--preset--color--photology-primary);--wp--preset--color--photology-secondary: var(--wp--preset--color--theme-1);--wp--preset--color--theme-1: var(--wp--preset--color--photology-secondary);--wp--preset--color--photology-brown: var(--wp--preset--color--theme-2);--wp--preset--color--theme-2: var(--wp--preset--color--photology-brown);--wp--preset--color--photology-brown-soft: var(--wp--preset--color--theme-3);--wp--preset--color--theme-3: var(--wp--preset--color--photology-brown-soft);--wp--preset--color--photology-text: var(--wp--preset--color--theme-4);--wp--preset--color--theme-4: var(--wp--preset--color--photology-text);--wp--preset--color--photology-text-hero: var(--wp--preset--color--theme-5);--wp--preset--color--theme-5: var(--wp--preset--color--photology-text-hero);--wp--preset--color--photology-text-footer: var(--wp--preset--color--theme-6);--wp--preset--color--theme-6: var(--wp--preset--color--photology-text-footer);--wp--preset--color--photology-soft-grey: var(--wp--preset--color--theme-7);--wp--preset--color--theme-7: var(--wp--preset--color--photology-soft-grey);--wp--preset--color--photology-overlay: var(--wp--preset--color--theme-8);--wp--preset--color--theme-8: var(--wp--preset--color--photology-overlay);--wp--preset--color--photology-border-dark: var(--wp--preset--color--theme-9);--wp--preset--color--theme-9: var(--wp--preset--color--photology-border-dark);--wp--preset--color--photology-bg-overlay: var(--wp--preset--color--theme-10);--wp--preset--color--theme-10: var(--wp--preset--color--photology-bg-overlay);--wp--preset--color--photology-bg-grey: var(--wp--preset--color--theme-11);--wp--preset--color--theme-11: var(--wp--preset--color--photology-bg-grey);--wp--preset--color--photology-quote: var(--wp--preset--color--theme-12);--wp--preset--color--theme-12: var(--wp--preset--color--photology-quote);
+}
+.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .block-library-block__reusable-block-container {
+    max-width: 100%;
+}
